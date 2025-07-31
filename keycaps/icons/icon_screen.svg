@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="20.489349mm"
+   height="17.568375mm"
+   viewBox="0 0 20.489349 17.568375"
+   version="1.1"
+   id="svg22346"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22348"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs22343" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-146.16304,-177.07745)">
+    <path
+       d="m 151.89921,194.64582 v -0.67734 q 0,-0.29633 0.21167,-0.48683 0.23283,-0.21167 0.55033,-0.21167 h 2.66701 v -1.18533 h -8.14918 q -0.42334,0 -0.71967,-0.29634 -0.29633,-0.3175 -0.29633,-0.74083 v -12.95402 q 0,-0.42334 0.29633,-0.71967 0.29633,-0.29634 0.71967,-0.29634 h 18.45736 q 0.42333,0 0.71967,0.29634 0.29633,0.29633 0.29633,0.71967 v 12.95402 q 0,0.42333 -0.29633,0.74083 -0.29634,0.29634 -0.71967,0.29634 h -8.17035 v 1.18533 h 2.66701 q 0.3175,0 0.52917,0.21167 0.23283,0.1905 0.23283,0.48683 v 0.67734 z m -3.64067,-5.20701 h 16.27719 q 0.3175,0 0.52917,-0.23284 0.23283,-0.23283 0.23283,-0.55033 v -9.31335 q 0,-0.33867 -0.23283,-0.5715 -0.21167,-0.23283 -0.52917,-0.23283 h -16.27719 q -0.3175,0 -0.55034,0.23283 -0.21166,0.23283 -0.21166,0.5715 v 9.31335 q 0,0.3175 0.21166,0.55033 0.23284,0.23284 0.55034,0.23284 z m 16.78519,1.5875 q 0.27517,0 0.27517,-0.29633 0,-0.27517 -0.27517,-0.27517 -0.29633,0 -0.29633,0.27517 0,0.29633 0.29633,0.29633 z"
+       style="font-weight:bold;font-size:21.1667px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583"
+       id="path48536" />
+  </g>
+</svg>

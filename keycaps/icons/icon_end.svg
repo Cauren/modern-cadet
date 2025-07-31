@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10.368362mm"
+   height="18.38028mm"
+   viewBox="0 0 10.368362 18.38028"
+   version="1.1"
+   id="svg22346"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22348"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs22343" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-135.61728,-25.943656)">
+    <path
+       d="M 142.16572,25.943656 V 38.66846 l 3.81993,-1.612304 v 0.644921 l -3.81993,3.857129 v 0.03721 h 3.50987 v 2.728516 h -9.74825 v -2.728516 h 3.50987 v -0.03721 l -3.81992,-3.857129 v -0.644921 l 3.81992,1.612304 V 25.943656 Z"
+       style="font-weight:bold;font-size:25.4px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583"
+       id="path48488" />
+  </g>
+</svg>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="19.050018mm"
+   height="19.050026mm"
+   viewBox="0 0 19.050018 19.050026"
+   version="1.1"
+   id="svg22346"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22348"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs22343" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-146.21636,-94.623464)">
+    <g
+       id="g48579"
+       style="stroke:none">
+      <path
+         d="M 160.86368,111.66265 H 150.3015 v -2.2225 l 3.78884,-3.83117 q 1.143,-1.18534 1.8415,-1.96851 0.6985,-0.80433 1.016,-1.43933 0.3175,-0.65617 0.3175,-1.397 0,-0.910167 -0.508,-1.35467 -0.48683,-0.444501 -1.3335,-0.444501 -0.86784,0 -1.69334,0.402168 -0.8255,0.402166 -1.73567,1.143003 l -1.73567,-2.053171 q 0.65617,-0.571501 1.37584,-1.058335 0.74083,-0.486835 1.69333,-0.783168 0.97367,-0.317501 2.32834,-0.317501 1.48167,0 2.54001,0.550334 1.0795,0.529168 1.651,1.460503 0.59267,0.910168 0.59267,2.074338 0,1.24883 -0.50801,2.286 -0.48683,1.03717 -1.43933,2.05317 -0.93134,1.016 -2.26484,2.24367 l -1.94733,1.82034 v 0.14816 h 6.58284 z"
+         style="font-weight:bold;font-size:21.1667px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583"
+         id="path48514" />
+      <path
+         d="m 165.26639,94.623462 h -19.05003 v 19.050028 h 19.05003 z M 146.99953,112.89032 V 95.40663 h 17.48369 v 17.48369 z"
+         style="font-weight:bold;font-size:21.1667px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583"
+         id="path48516" />
+    </g>
+  </g>
+</svg>

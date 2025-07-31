@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="18.653141mm"
+   height="19.016947mm"
+   viewBox="0 0 18.653141 19.016947"
+   version="1.1"
+   id="svg22346"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview22348"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false" />
+  <defs
+     id="defs22343" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-38.134801,-26.431462)">
+    <path
+       d="m 48.139365,32.16962 q -1.537892,0 -2.149741,0.396876 -0.61185,0.380339 -0.61185,1.339454 0,0.694532 0.413412,1.12448 0.429948,0.413412 1.157553,0.413412 1.074871,0 1.670184,-0.810287 0.61185,-0.810287 0.61185,-2.265497 V 32.16962 Z m 3.819926,-1.041798 v 5.920058 h -2.728518 v -1.157553 q -0.496094,0.677995 -1.273309,1.058334 -0.777214,0.363803 -1.719793,0.363803 -1.785939,0 -2.794664,-0.926043 -0.992189,-0.942579 -0.992189,-2.612763 0,-1.819012 1.190626,-2.678909 1.190627,-0.876433 3.687634,-0.876433 h 1.901695 v -0.446484 q 0,-0.661459 -0.479558,-0.992189 -0.479558,-0.347266 -1.422137,-0.347266 -0.992188,0 -1.918231,0.248047 -0.909506,0.248047 -1.918231,0.777215 v -2.315107 q 0.909506,-0.363802 1.835549,-0.529167 0.942579,-0.181901 2.000913,-0.181901 2.563154,0 3.588415,1.025261 1.041798,1.025262 1.041798,3.671097 z m -4.497921,14.320587 -9.326571,-9.508473 1.521355,-1.637111 7.805216,8.003654 7.805216,-8.003654 1.521356,1.637111 z"
+       style="font-weight:bold;font-size:33.8667px;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;text-anchor:middle;fill:#000000;stroke:none;stroke-width:0.264583"
+       id="path48480"
+       inkscape:export-filename="icon_ins.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
