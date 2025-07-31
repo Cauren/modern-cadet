@@ -1,0 +1,80 @@
+default xkb_compatibility "basic" {
+
+
+    virtual_modifiers Meta	= Mod1;
+    virtual_modifiers NumLock	= Mod2;
+    virtual_modifiers Group2	= Mod3;
+    virtual_modifiers Super	= Mod4;
+    virtual_modifiers Hyper	= Mod5;
+    virtual_modifiers AltGr;
+    virtual_modifiers ScrollLock;
+
+    interpret.repeat= False;
+    setMods.clearLocks= True;
+    latchMods.clearLocks= True;
+    latchMods.latchToLock= True;
+
+    interpret Meta_R+Any {
+	virtualModifier = Meta;
+    };
+
+    interpret Num_Lock+Any {
+	virtualModifier= NumLock;
+	action = LockMods(modifiers=NumLock);
+    };
+
+    interpret Caps_Lock+Any {
+	action = LockMods(modifiers=Lock);
+    };
+
+    interpret ISO_Level3_Shift+Any {
+	virtualModifier = AltGr;
+    };
+
+    interpret Super_R+Any {
+	virtualModifier = Super;
+    };
+
+    interpret Hyper_R+Any {
+	virtualModifier = Hyper;
+    };
+
+    interpret Scroll_Lock+Any {
+	virtualModifier = ScrollLock;
+	action = LockMods(modifiers=ScrollLock);
+    };
+
+    interpret ISO_Group_Latch {
+	action = LatchGroup(group=+1);
+    };
+
+    group 2 = Mod3;
+    group 3 = Mod3;
+    group 4 = Mod3;
+
+    indicator "Caps Lock" {
+	!allowExplicit;
+	whichModState = Locked;
+	modifiers = Lock;
+    };
+
+    indicator "Num Lock" {
+	!allowExplicit;
+	whichModState = Locked;
+	modifiers = NumLock;
+    };
+
+    indicator "Group 2" {
+	!allowExplicit;
+	whichModState = Locked;
+	modifiers = Group2;
+    };
+
+    indicator "Scroll Lock" {
+	!allowExplicit;
+	whichModState = Locked;
+	modifiers = ScrollLock;
+    };
+
+};
+

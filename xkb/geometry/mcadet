@@ -1,0 +1,191 @@
+//
+//Copyright 1996, 1998  The Open Group
+//
+//Permission to use, copy, modify, distribute, and sell this software and its
+//documentation for any purpose is hereby granted without fee, provided that
+//the above copyright notice appear in all copies and that both that
+//copyright notice and this permission notice appear in supporting
+//documentation.
+//
+//The above copyright notice and this permission notice shall be
+//included in all copies or substantial portions of the Software.
+//
+//THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+//EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+//MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+//IN NO EVENT SHALL THE OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR
+//OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+//ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+//OTHER DEALINGS IN THE SOFTWARE.
+//
+//Except as contained in this notice, the name of The Open Group shall
+//not be used in advertising or otherwise to promote the sale, use or
+//other dealings in this Software without prior written authorization
+//from The Open Group.
+//
+
+default xkb_geometry "mc119" {
+
+    description= "Modern Cadet keyboard";
+    width= 624;
+    height= 168;
+
+    shape.cornerRadius= 1;
+    shape "U100" { { [ 24,24] }, { [2,1], [ 22,22] } };
+    shape "U125" { { [ 30,24] }, { [2,1], [ 28,22] } };
+    shape "U150" { { [ 36,24] }, { [2,1], [ 34,22] } };
+    shape "U175" { { [ 42,24] }, { [2,1], [ 40,22] } };
+    shape "U200" { { [ 48,24] }, { [2,1], [ 46,22] } };
+    shape "U225" { { [ 54,24] }, { [2,1], [ 52,22] } };
+    shape "U275" { { [ 66,24] }, { [2,1], [ 64,22] } };
+    shape "U625" { { [150,24] }, { [2,1], [148,22] } };
+    shape "U1V2" { { [ 24,48] }, { [2,1], [ 22,46] } };
+
+    shape "LEDS" { cornerRadius= 0, { [ 96 , 8 ] } };
+    shape "LED"  { cornerRadius= 0, { [  5,  1 ] } };
+    solid "LedPanel" {
+	shape= "LEDS";
+	top = 8;
+	left = 512;
+	color= "grey10";
+    };
+
+    indicator.onColor= "green";
+    indicator.offColor= "green30";
+    indicator.top = 10;
+    indicator.shape= "LED";
+    indicator "Num Lock"     { left= 522; };
+    indicator "Caps Lock"    { left= 532; };
+    indicator "Scroll Lock"  { left= 542; };
+
+    section "Command" {
+	left = 8;
+	key.shape = "U150";
+	key.color = "orange1";
+	row { top =   8; keys { { <PRSC>, color="orangered1" } }; };
+	row { top =  44; keys { <STOP> }; };
+	row { top =  68; keys { <I149> }; };
+	row { top =  92; keys { <I218> }; };
+	row { top = 116; keys { <I147> }; };
+	row { top = 140; keys { <LWIN> }; };
+    };
+
+    section "Function" {
+	top = 8;
+	left = 56;
+	key.shape = "U100";
+	row {
+	    keys { { <ESC>, shape="U150" },
+		   { <FK01>, 12 }, <FK02>, <FK03>, <FK04>,
+		   { <FK05>, 12 }, <FK06>, <FK07>, <FK08>,
+		   { <FK09>, 12 }, <FK10>, <FK11>, <FK12>,
+		   { <PAUS>, 12 }, <SCLK>, <NMLK>
+	    };
+	};
+   };
+
+    section "Alpha" {
+	left = 56;
+	key.shape = "U100";
+	row {
+	    top = 44;
+	    keys { <TLDE>, <AE01>, <AE02>, <AE03>, <AE04>,
+		   <AE05>, <AE06>, <AE07>, <AE08>, <AE09>,
+		   <AE10>, <AE11>, <AE12>,
+		   { <BKSP>, shape="U200", color="grey20" }
+	    };
+	};
+	row {
+	    top = 68;
+	    keys { { <TAB>, "U150", color="grey20" },
+		   <AD01>, <AD02>, <AD03>, <AD04>, <AD05>,
+		   <AD06>, <AD07>, <AD08>, <AD09>, <AD10>,
+		   <AD11>, <AD12>, { <BKSL>, "U150" }
+	    };
+	};
+	row {
+	    top = 92;
+	    keys { { <CAPS>, "U175", color="grey20" },
+		   <AC01>, <AC02>, <AC03>, <AC04>, <AC05>,
+		   <AC06>, <AC07>, <AC08>, <AC09>, <AC10>,
+		   <AC11>, { <RTRN>, "U225", color="grey20" }
+	    };
+	};
+	row {
+	    top = 116;
+	    keys { { <LFSH>, "U225", color="grey20" },
+		    <AB01>, <AB02>, <AB03>, <AB04>, <AB05>,
+		    <AB06>, <AB07>, <AB08>, <AB09>, <AB10>,
+		    { <LFSH>, "U275", color="grey20" }
+	    };
+	};
+	row {
+	    top = 140;
+	    key.shape= "U100";
+	    key.color= "grey20";
+	    keys { { <LCTL>, "U125" }, <LALT>, <RTSH>, <RWIN>,
+		   { <SPCE>, "U625", color="white" },
+		   <RALT>, <I179>, { <COMP>, "U125" }, { <RCTL>, "U125" }
+	    };
+	};
+    }; // End of "Alpha" section
+
+    section "Editing" {
+	left = 428;
+	key.color= "grey20";
+	row {
+	    top = 44;
+	    keys { <INS>, <HOME>, <PGUP> };
+	};
+        row {
+	    top = 68;
+	    keys { <DELE>, <END>, <PGDN> };
+	};
+        row {
+	    top = 92;
+	    keys { <I166>, <I184>, <I167> };
+	};
+	row {
+	    top = 116;
+	    left = 24;
+	    keys { <UP> };
+	};
+	row {
+	    top = 140;
+	    keys { <LEFT>, <DOWN>, <RGHT> };
+	};
+    }; // End of "Editing" section
+
+    section "Keypad" {
+	left = 512;
+	row {
+	    top = 20;
+	    keys { <FK16>, <FK17>, <FK18>, <KPDV> };
+	};
+	row {
+	    top = 44;
+	    keys { <FK13>, <FK14>, <FK15>, <KPMU> };
+	};
+	row {
+	    top = 68;
+	    keys { <KP7>, <KP8>, <KP9>, <KPSU> };
+	};
+	row {
+	    top = 92;
+	    keys { <KP4>, <KP5>, <KP6>, <KPAD> };
+	};
+	row {
+	    top = 116;
+	    keys { <KP1>, <KP2>, <KP3>, { <KPEN>, "U1V2", color="grey20" } };
+	};
+	row {
+	    top = 140;
+	    keys { { <KP0>, "U200" }, <KPDL> };
+	};
+    }; // End of "Keypad" section
+
+    alias <AC00> = <CAPS>;
+    alias <AA00> = <LCTL>;
+
+}; // End of "default" geometry
+

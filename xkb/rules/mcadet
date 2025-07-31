@@ -1,0 +1,15 @@
+! model		=	keycodes
+  mcadet	=	evdev
+
+! model		=	geometry
+  mcadet	=	mcadet
+
+! model		=	compat
+  mcadet	=	mcadet
+
+! model		=	symbols
+  mcadet	=	mcadet
+
+! model		=	types
+  mcadet	=	mcadet
+
